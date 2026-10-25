@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This Page is About HTML Links">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content="Nitin Bhardwaj">
+    <meta name="robots" content="index, follow">
+    <title>HTML Links</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <style>
+        /* Link Colors Style */
+        .linkcolor:link{
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        .linkcolor:visited{
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        .linkcolor:hover{
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        .linkcolor:active{
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        /* Link Button Colors Styles */
+        .linkbutton:link, .linkbutton:visited{
+            color: white;
+            background-color: rgb(236, 62, 62);
+            text-decoration: none;
+            padding: 15px 25px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .linkbutton:hover, .linkbutton:active{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Links</h1>
+    <h2>Relative URL Links</h2>
+    <a href="/HTML/paragraphs.html" target="_blank">HTML Paragraphs</a>
+
+    <h2>Absolute URL Links</h2>
+    <a href="https://nbcodeblog.github.io" target="_blank">nbcodeblog</a>
+
+    <h2>Link Target Attribute</h2>
+    <h3>Self (By Default)</h3>
+    <a href="https://nbcodeblog.github.io">nbcodeblog</a>
+
+    <h3>Blank</h3>
+    <a href="https://nbcodeblog.github.io" target="_blank">nbcodeblog</a>
+
+    <h2>Link Titles Attribute</h2>
+    <a href="https://nbcodeblog.github.io" target="_blank" title="Link">nbcodeblog</a>
+
+    <h2>Use an Image as a Link</h2>
+    <a href="https://nbcodeblog.github.io" target="_blank"><img src="/assets/logo.webp" alt="nbcodeblog Logo Image" width="300" height="250"></a>
+
+    <h2>Link to an Email Address</h2>
+    <a href="mailto:nbcodebloghelp@gmail.com" target="_blank">Email Us</a>
+
+    <h2>Button as a Link</h2>
+    <a href="https://nbcodeblog.github.io" target="_blank"><button>nbcodeblog</button></a>
+
+    <h2>Button as a Link by using JavaScript</h2>
+    <button onclick="document.location='https://nbcodeblog.github.io'">nbcodeblog</button>
+
+    <h2>Link Colors</h2>
+    <a class="linkcolor" href="https://nbcodeblog.github.io" target="_blank">nbcodeblog</a>
+
+    <h2>Link Button Colors</h2>
+    <a class="linkbutton" href="https://nbcodeblog.github.io" target="_blank">nbcodeblog</a>
+
+    <h2>Link Bookmarks</h2>
+    <a href="#c5">Go to Chapter 7</a>
+    <br><br>
+    <a href="#c10">Go to Chapter 10</a>
+    <h3>Chapter1</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo quas porro laborum, quos nostrum deserunt deleniti cum asperiores alias sunt corrupti quo qui voluptas ipsam, beatae veritatis commodi, necessitatibus amet vitae error id in vero. Non recusandae consectetur impedit laudantium vero porro harum et, commodi voluptas sit facere cupiditate?</p>
+
+    <h3>Chapter2</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo quas porro laborum, quos nostrum deserunt deleniti cum asperiores alias sunt corrupti quo qui voluptas ipsam, beatae veritatis commodi, necessitatibus amet vitae error id in vero. Non recusandae consectetur impedit laudantium vero porro harum et, commodi voluptas sit facere cupiditate?</p>
+
+    <h3>Chapter3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo quas porro laborum, quos nostrum deserunt deleniti cum asperiores alias sunt corrupti quo qui voluptas ipsam, beatae veritatis commodi, necessitatibus amet vitae error id in vero. Non recusandae consectetur impedit laudantium vero porro harum et, commodi voluptas sit facere cupiditate?</p>
+
+    <h3>Chapter4</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo quas porro laborum, quos nostrum deserunt deleniti cum asperiores alias sunt corrupti quo qui voluptas ipsam, beatae veritatis commodi, necessitatibus amet vitae error id in vero. Non recusandae consectetur impedit laudantium vero porro harum et, commodi voluptas sit facere cupiditate?</p>
+
+    <h3 id="c5">Chapter5</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo quas porro laborum, quos nostrum deserunt deleniti cum asperiores alias sunt corrupti quo qui voluptas ipsam, beatae veritatis commodi, necessitatibus amet vitae error id in vero. Non recusandae consectetur impedit laudantium vero porro harum et, commodi voluptas sit facere cupiditate?</p>
+
+    <h3>Chapter6</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo quas porro laborum, quos nostrum deserunt deleniti cum asperiores alias sunt corrupti quo qui voluptas ipsam, beatae veritatis commodi, necessitatibus amet vitae error id in vero. Non recusandae consectetur impedit laudantium vero porro harum et, commodi voluptas sit facere cupiditate?</p>
+
+    <h3>Chapter7</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo quas porro laborum, quos nostrum deserunt deleniti cum asperiores alias sunt corrupti quo qui voluptas ipsam, beatae veritatis commodi, necessitatibus amet vitae error id in vero. Non recusandae consectetur impedit laudantium vero porro harum et, commodi voluptas sit facere cupiditate?</p>
+
+    <h3>Chapter8</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo quas porro laborum, quos nostrum deserunt deleniti cum asperiores alias sunt corrupti quo qui voluptas ipsam, beatae veritatis commodi, necessitatibus amet vitae error id in vero. Non recusandae consectetur impedit laudantium vero porro harum et, commodi voluptas sit facere cupiditate?</p>
+
+    <h3>Chapter9</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo quas porro laborum, quos nostrum deserunt deleniti cum asperiores alias sunt corrupti quo qui voluptas ipsam, beatae veritatis commodi, necessitatibus amet vitae error id in vero. Non recusandae consectetur impedit laudantium vero porro harum et, commodi voluptas sit facere cupiditate?</p>
+
+    <h3 id="c10">Chapter10</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam illo quas porro laborum, quos nostrum deserunt deleniti cum asperiores alias sunt corrupti quo qui voluptas ipsam, beatae veritatis commodi, necessitatibus amet vitae error id in vero. Non recusandae consectetur impedit laudantium vero porro harum et, commodi voluptas sit facere cupiditate?</p>
+</body>
+</html>
